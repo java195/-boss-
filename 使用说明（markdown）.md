@@ -20,10 +20,6 @@ pip install selenium
 pip install requests
 ```
 
-也忽略上方的所有指令 直接运行下面一行指令
-```bash
-pip install -r requirements.txt
-```
 
 ### 2. **Chrome 版本与驱动配置**
 
@@ -67,7 +63,6 @@ service = Service(executable_path=r"C:\Users\你的用户名\Desktop\自动化�
 ## 四、脚本参数及自定义
 
 - **岗位搜索（默认北京 python 实习）**
-    - 可直接在源码第70行
       ```python
       job = "北京python实习"
       ```
@@ -113,8 +108,6 @@ service = Service(executable_path=r"C:\Users\你的用户名\Desktop\自动化�
 - 本脚本已集成 selenium-stealth，能有效降低 Boss直聘对自动化脚本的风控。
 - 所有沟通行为都做了伪装，模拟真实用户操作，减少风控风险。
 - 默认投递岗位、沟通数量均可自主调整——找到源码相关参数直接修改即可。
-- 后续支持多岗位/多城市/多账号扩展，如需要请联系开发者或自行按此模板拓展。
-
 ---
 
 ## 八、常用命令速查
